@@ -1,3 +1,4 @@
+// noop
 export default function Page({ posts }) {
   return posts[0].title;
 }
