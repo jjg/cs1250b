@@ -1,7 +1,7 @@
 export async function getStaticProps(context) {
   const url = context.draftMode
-    ? 'https://jasongullickson.com/good-enough-software.html'
-    : 'https://jasongullickson.com/';
+    ? 'https://jasongullickson.com/posts.json'
+    : 'https://jasongullickson.com/posts.json';
   const res = await fetch(url);
   return {
     props: {
