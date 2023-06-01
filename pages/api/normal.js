@@ -1,4 +1,4 @@
 export default async (req, res) => {
   res.setDraftMode({enable: false});
-  res.redirect("/pages/1");
+  res.redirect("/posts/1");
 }
